@@ -11,10 +11,10 @@
  */
 int main(int argc, char** argv)
 {
-	printf("\nSize of a char data type is : %d", sizeof(char));
-	printf("\nSize of an int data type is : %d", sizeof(int));
-	printf("\nSize of a long int data type is : %d", sizeof(long int));
-	printf("\nSize of a long long int data type is : %ld", sizeof(long long int));
-	printf("\nSize of a float data type is : %d", sizeof(float));
+	printf("\nSize of a char: %d byte(s)", sizeof(char));
+	printf("\nSize of an int: %d byte(s)", sizeof(int));
+	printf("\nSize of a long int: %d byte(s)", sizeof(long int));
+	printf("\nSize of a long long int: %ld byte(s)", sizeof(long long int));
+	printf("\nSize of a float: %d byte(s)", sizeof(float));
 	return (0);
 }
