@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - program entry point
+ * main - Program entry point
  * printf: is a function
  *
- * return: 0 on success.
+ * Return: 0 on success.
  */
 int main(void)
 {
