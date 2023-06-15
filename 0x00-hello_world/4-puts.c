@@ -1,10 +1,9 @@
 #include <stdio.h>
-/*
- * main: main is the Entry point
- * puts: prints the string
+/**
+ * main - entry point
+ * puts: prints string
  *
- * Description: prints exactly
- * return: 0.
+ * Return: 0 success
  */
 int main(void)
 {
