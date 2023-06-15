@@ -1,7 +1,8 @@
 #include <stdio.h>
 /*
- * main - Entry point
- * 
+ * main: main is the Entry point
+ * puts: prints the string
+ *
  * Description: prints exactly
  * return: 0.
  */
