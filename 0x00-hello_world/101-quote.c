@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * write - Progarm entry point
  * main - Program entry point
- * @argc: Number of argument
- * @argv: Number of argument
+ * Write: is function
  *
  * Return: 1 on success.
  */
