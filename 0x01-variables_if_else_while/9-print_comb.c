@@ -13,7 +13,7 @@ while (c <= '9')
 {
 putchar(c);
 c++;
-if (c <= '8')
+if (c != '9')
 {
 putchar(',');
 }
