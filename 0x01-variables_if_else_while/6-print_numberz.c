@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	int c;
+	int c = 0;
 
-	if (c = 0 && c <= 9)
+	while (c <= 9)
 	{
 		putchar(c);
 		c++;
 	}
-	else
+	do
 	{
 putchar('\n');
 	}
