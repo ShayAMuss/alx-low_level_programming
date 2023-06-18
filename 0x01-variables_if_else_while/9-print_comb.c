@@ -14,7 +14,8 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	putchar(', ');
+	putchar(',');
+	putchar(' ');
 putchar('\n');
 return (0);
 }
