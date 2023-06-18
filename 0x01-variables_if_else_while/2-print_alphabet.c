@@ -5,9 +5,10 @@
  *
  * Return: 0 on success.
  */
-int main (void)
+int main(void)
 {
 	char c = 'a';
+
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 return (0);
