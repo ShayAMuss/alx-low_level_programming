@@ -7,8 +7,9 @@
  */
 int main (void)
 {
-	int puchar(char c = 'a');
+	char c = 'a';
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
-	return (0);
+	putchar(\);
+return (0);
 }
