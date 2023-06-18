@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 
-while (i = 0; i <= 9)
+while (i <= 9)
 	{
 printf("%d", i);
 i++;
