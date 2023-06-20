@@ -3,7 +3,7 @@
 /**
  * main - Program entry point
  * _putchar: Function to print alphabets
- * print_alphabet: Fuction prototype
+ * print_alphabet: Fuction to print alphabet
  *
  * Return: 0 on success.
  */
