@@ -1,6 +1,6 @@
-#enclude "main.h"
-#enclude <stdio.h>
-#enclude <stdlib.h>
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * _abs - Program entry point
  * _abs: Function to print absolute value
