@@ -7,10 +7,9 @@
  *
  * Return: 0 on success.
  */
-int _putchar (char c)
+int main (void)
 {
-	c = _putchar;
-	_putchar('c');
-	_putchar('\n');
+	putchar('_putchar');
+	putchar('\n');
 	return (0);
 }
