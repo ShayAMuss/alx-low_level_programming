@@ -10,13 +10,14 @@
 
 int _islower( int c )
 {
-
-for (c = 'a'; c <= 'z'; c++)
+c = 'a';
+if (c <= 'z')
 {
-_islower(c);
+_putchar(c);
+c++;
 return (1);
 }
-if (c < '97' || c > '122')
+else
 {
 return (0);
 }
