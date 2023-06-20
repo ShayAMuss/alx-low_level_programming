@@ -18,5 +18,6 @@ n = ((-1) * n);
 _putchar(n);
 }
 putchar('\n');
+return (0);
 }
 
