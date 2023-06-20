@@ -2,8 +2,8 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * _islower - Program entry point
- * _isalpha: Function to check alphabets
+ * _isalpha - Program entry point
+ * _putchar: Function to check alphabets
  * @c: is an int number
  *
  * Return: 1 on success else 0.
@@ -20,5 +20,5 @@ else
 {
 return (0);
 }
-putchar('\n');
+_putchar('\n');
 }
