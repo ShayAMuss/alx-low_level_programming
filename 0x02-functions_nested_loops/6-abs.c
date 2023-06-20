@@ -10,7 +10,10 @@
 int _abs(int n)
 {
 
-_abs(n);
+if (n < 0)
+{
+	n = ((-1) * n);
+}
 putchar('\n');
 return (0);
 }
