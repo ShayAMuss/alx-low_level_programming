@@ -7,9 +7,10 @@
  *
  * Return: 0 on success.
  */
-int _puchar (char c)
+int _putchar (char c)
 {
-	_putchar('_putchar');
+	c = _putchar;
+	_putchar('c');
 	_putchar('\n');
 	return (0);
 }
