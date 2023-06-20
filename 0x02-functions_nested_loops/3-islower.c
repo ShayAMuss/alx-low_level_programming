@@ -13,7 +13,7 @@ int _islower( int c )
 c = 'a';
 if (c <= 'z')
 {
-_putchar(c);
+_islower(c);
 c++;
 return (1);
 }
