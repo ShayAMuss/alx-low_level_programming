@@ -1,12 +1,15 @@
 #include <stdio.h>
+#include <main.h>
+#include <unistd.h>
 /**
  * main - Program entry point
  * printf: Function to print
  *
  * Return: 0 on success.
  */
-int main (void)
+int _puchar (char c)
 {
-	printf("_putchar\n");
+	_putchar('_putchar');
+	_putchar('\n');
 	return (0);
 }
