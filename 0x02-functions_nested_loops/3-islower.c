@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <main.h>
+#include "main.h"
 /**
- * main - Program entry point
+ * _islower - Program entry point
  * _islower: Function to check lowercase alphabets
  *
  * Return: 1 on success else 0.
