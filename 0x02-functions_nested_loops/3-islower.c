@@ -10,11 +10,9 @@
 
 int _islower( int c )
 {
-c = 'a';
-if (c <= 'z')
+
+if (c >= 'a' && c <= 'z')
 {
-_islower(c);
-c++;
 return (1);
 }
 else
