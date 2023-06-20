@@ -3,6 +3,7 @@
 /**
  * main - Program entry point
  * _putchar: Function to print alphabets
+ * print_alphabet: Fuction prototype
  *
  * Return: 0 on success.
  */
@@ -10,7 +11,7 @@ void print_alphabet(void)
 {
 int c = 'a';
 
-for (;c <= 'z'; c++)
+for (; c <= 'z'; c++)
 {
 _putchar(c);
 }
