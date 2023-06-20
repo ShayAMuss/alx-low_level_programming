@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 #include <unistd.h>
 /**
- * main - Program entry point
- * putchar: Function to print alphabets
+ * print_alphabet - Program entry point
+ * _putchar: Function to print alphabets
  *
  * Return: 0 on success.
  */
@@ -17,5 +17,4 @@ _putchar(c);
 }
 
 _putchar('\n');
-return (0);
 }
