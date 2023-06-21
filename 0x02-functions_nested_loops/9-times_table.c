@@ -24,17 +24,12 @@ for (j = 0; j <= 9; j++)
 if (n >= 0 && j == 9)
 {
 r = n * j;
-printf("%d ", r);
+printf("%2d ", r);
 }
 else
 {
 r = n * j;
-printf("%d, ", r);
-}
-if (r < 10)
-{
-_putchar(' ');
-}
+printf("%2d, ", r);
 }
 printf("\n");
 }
