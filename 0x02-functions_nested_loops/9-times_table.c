@@ -22,7 +22,7 @@ for (n = 0; n <= 9; n++)
 for (j = 0; j <= 9; j++)
 {
 r = n * j;
-printf("%2d,", r);
+printf("%2d, ", r);
 }
 printf("\n");
 }
