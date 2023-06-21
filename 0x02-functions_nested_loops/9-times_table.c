@@ -24,7 +24,7 @@ for (j = 0; j <= 9; j++)
 if (n >= 0 && j == 9)
 {
 	r = n * j;
-	printf("%d", r);
+	printf("%2d", r);
 }
 else
 {
