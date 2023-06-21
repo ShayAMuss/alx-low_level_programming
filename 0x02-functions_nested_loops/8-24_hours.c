@@ -4,10 +4,9 @@
 #include <limits.h>
 /**
  * jack_bauer - Program entry point
- * jack_bauer: Function to print 24 hours
  * printf: Function to print time
- * @h: is an int number
- * @m: is an int number
+ * @h: an int number
+ * @m: an int number
  *
  * Return: 0 on success.
  */
