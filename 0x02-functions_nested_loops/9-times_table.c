@@ -24,12 +24,12 @@ for (j = 0; j <= 9; j++)
 if (n >= 0 && j == 9)
 {
 r = n * j;
-printf("%4d", r);
+printf("%3d", r);
 }
 else
 {
 r = n * j;
-printf("%4d,", r);
+printf("%3d,", r);
 }
 }
 printf("\n");
