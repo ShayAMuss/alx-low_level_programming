@@ -4,11 +4,11 @@
 #include <limits.h>
 /**
  * jack_bauer - Program entry point
- * printf: Function to print time
- * @h: an int number
- * @m: an int number
+ * printf: Function to print hours
+ * @h - an int number
+ * @m - an int number
  *
- * Return: 0 on success.
+ * Return: Nothing on success.
  */
 void jack_bauer(void)
 {
@@ -18,7 +18,7 @@ void jack_bauer(void)
 	{
 		for (m = 0; m < 60; m++)
 		{
-		printf("\n\t%02d:%02d", h, m);
+		printf("%02d:%02d \n", h, m);
 	}
 }
 }
