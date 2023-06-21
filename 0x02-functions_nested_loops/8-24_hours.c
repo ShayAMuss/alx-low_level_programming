@@ -4,22 +4,22 @@
 #include <limits.h>
 /**
  * jack_bauer - Program entry point
- * jack_bauer: Function to print time in minutes
+ * jack_bauer: Function to print 24 hours
  * printf: Function to print time
- * @hrs: is an int number
- * @min: is an int number
+ * @h: is an int number
+ * @m: is an int number
  *
  * Return: 0 on success.
  */
 void jack_bauer(void)
 {
-	int hrs, min;
+	int h, m;
 
-	for (hrs = 0; hrs < 24; hrs++)
+	for (h = 0; h < 24; h++)
 	{
-		for (min = 0; min < 60; min++)
+		for (m = 0; m < 60; m++)
 		{
-		printf("%02d:%02d \n", hrs, min);
+		printf("\n%02d:%02d", h, m);
 	}
 }
 }
