@@ -29,7 +29,7 @@ printf("%1d", r);
 else
 {
 r = n * j;
-printf("%2d, ", r);
+printf("%2d,", r);
 }
 }
 printf("\n");
