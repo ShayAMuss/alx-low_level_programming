@@ -13,25 +13,29 @@
  */
 void times_table(void)
 {
-     int n;
-     int j;
-     int r;
+int n;
+int j;
+int r;
 
 for (n = 0; n <= 9; n++)
 {
-     for (j = 0; j <= 9; j++)
-     {
-     if (n >= 0 && j == 9)
-     {
-	     r = n * j;
-     printf("%d$", r);
-     }
-     else
-     {
-     r = n * j;
-     printf("%d, ", r);
-     }
-     }
-  printf("\n");
+for (j = 0; j <= 9; j++)
+{
+if (n >= 0 && j == 9)
+{
+r = n * j;
+printf("%d$", r);
+}
+else
+{
+r = n * j;
+printf("%d, ", r);
+}
+if (r < 10)
+{
+printf(" ", r);
+}
+}
+printf("\n");
 }
 }
