@@ -24,13 +24,14 @@ for (j = 0; j <= 9; j++)
 if (n >= 0 && j == 9)
 {
 r = n * j;
-printf("%1d\n", r);
+printf("%d", r);
 }
 else
 {
 r = n * j;
-printf("%2d, \n", r);
+printf("%2d, ", r);
 }
 }
+printf("\n");
 }
 }
