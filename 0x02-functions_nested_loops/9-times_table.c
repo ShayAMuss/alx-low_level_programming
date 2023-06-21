@@ -31,6 +31,7 @@ else
 r = n * j;
 printf("%2d, ", r);
 }
+}
 printf("\n");
 }
 }
