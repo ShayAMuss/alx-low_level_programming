@@ -33,7 +33,7 @@ printf("%d, ", r);
 }
 if (r < 10)
 {
-printf(" ", r);
+_putchar(' ');
 }
 }
 printf("\n");
