@@ -4,9 +4,9 @@
 #include <limits.h>
 /**
  * add - Program entry point
- * @n - is an int number
+ * @n: is an int number
  * @j - is an int number
- * @r: is an int number
+ * @r - is a result of int numbers
  *
  * Return: r on success.
  */
