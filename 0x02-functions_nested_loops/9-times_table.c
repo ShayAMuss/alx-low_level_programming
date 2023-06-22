@@ -21,15 +21,34 @@ for (n = 0; n <= 9; n++)
 {
 for (j = 0; j <= 9; j++)
 {
-if (n >= 0 && j == 9)
+if (n >= 2 && j == 9)
 {
-	r = n * j;
-	printf("%2d", r);
+r = n * j;
+printf(" %d", r);
+}
+else if (n < 2 && j == 9)
+{
+r = n * j;
+printf("  %d", r);
+}
+else if (n * j >= 1 && n * j <= 9)
+{
+r = n * j;
+printf("  %d,", r);
+}
+else if(n * j == 0 && j > 0)
+{
+r = n * j;
+printf("  %d,", r);
+}
+else if (n >= 0 && j == 0)
+{r = n * j;
+printf("%d,", r);
 }
 else
 {
 r = n * j;
-printf("%2d, ", r);
+printf(" %d,", r);
 }
 }
 printf("\n");
