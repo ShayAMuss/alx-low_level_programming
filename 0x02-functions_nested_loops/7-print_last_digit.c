@@ -15,9 +15,7 @@ int m;
 
 m = n % 10;
 if (n < 0)
-{
 m = m * -1;
-putchar(m + '0');
-}
+_putchar(m + '0');
 return (m);
 }
