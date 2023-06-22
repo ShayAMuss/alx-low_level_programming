@@ -4,9 +4,9 @@
 #include <limits.h>
 /**
  * print_to_98 - Program entry point
- * @n - is an int number
+ * @n: is an int number
  *
- * Return: r on success.
+ * Return: 0 on success.
  */
 void print_to_98(int n)
 {
