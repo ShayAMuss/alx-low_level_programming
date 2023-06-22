@@ -2,9 +2,6 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
-* positive_or_negative - Function to print
-* @i: is an int number
-*
 * Return: 0
 */
 
