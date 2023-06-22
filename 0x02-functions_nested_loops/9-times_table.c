@@ -36,7 +36,7 @@ else if (n * j >= 1 && n * j <= 9)
 r = n * j;
 printf("  %d,", r);
 }
-else if(n * j == 0 && j > 0)
+else if (n * j == 0 && j > 0)
 {
 r = n * j;
 printf("  %d,", r);
