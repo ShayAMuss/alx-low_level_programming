@@ -5,7 +5,7 @@
 /**
  * print_last_digit - Program entry point
  * @n: is an int number
- * @m: is an int number
+ * @m - is an int number
  *
  * Return: 0 on success.
  */
