@@ -15,7 +15,7 @@ int n;
 
 for (c = 0; c < 10; c++)
 {
-for (n = 0; n <=14; n++)
+for (n = 0; n <= 14; n++)
 {
 printf("%d", n);
 }
