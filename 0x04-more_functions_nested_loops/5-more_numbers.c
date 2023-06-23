@@ -3,7 +3,7 @@
 /**
  * more_numbers - Program entry poin.
  * @c - is an int number.
- * @n: is an int number.
+ * @n - is an int number.
  *
  * Return: nothing on success.
  */
