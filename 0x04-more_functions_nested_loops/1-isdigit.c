@@ -3,7 +3,7 @@
  * _isdigit - Program entry poin.
  * @c: is an int number.
  *
- * Return: always on success.
+ * Return: always success.
  */
 
 int _isdigit(int c)
