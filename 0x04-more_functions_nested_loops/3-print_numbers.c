@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - Program entry poin.
- * @c: is an int number.
+ * @c - is an int number.
  *
  * Return: nothing on success.
  */
