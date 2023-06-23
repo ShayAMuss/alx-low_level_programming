@@ -2,9 +2,9 @@
 #include "main.h"
 /**
  * _isupper - Program entry point.
- * @c - is an int number.
+ * @c: is an int number.
  *
- * Return: 1 on success else 0.
+ * Return: always success.
  */
 
 int _isupper(int c)
