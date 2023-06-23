@@ -3,7 +3,7 @@
  * print_numbers - Program entry poin.
  * @c: is an int number.
  *
- * Return: 0 on success.
+ * Return: nothing on success.
  */
 
 void print_numbers(void)
