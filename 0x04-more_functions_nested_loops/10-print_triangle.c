@@ -1,4 +1,12 @@
 #include "main.h"
+/**
+ * print_triangle - Program entry point.
+ * @i - is int number.
+ * @k - is char
+ * @n - is an int number
+ * @size: is an int number.
+ * Return: nothing.
+ */
 void print_triangle(int size)
 {
 	int i;
