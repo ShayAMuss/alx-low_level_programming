@@ -3,48 +3,28 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+/**
+ * main - creates a password
+ *
+ * Return:0;
+ */
+int main(void)
 {
+	int k, s, c;
 
-    char numbers[] = "0123456789";
-    char letter[] = "abcdefghijklmnoqprstuvwyzx";
-    char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-    char symbols[] = "!@#$^&*?";
-int size;
-scanf("%d",&size);
-char password[20];
-srand((unsigned int)(time(NULL)));
+	srand(time(NULL));
+	c = 2772;
+	k = 0;
 
-for(int i=0; i<size; i++ )
-{
-    int random_number = rand()%4;
+	while (k < (c - 122))
+	{
+		s = (rand() % (122 - 97 + 1)) + 97;/*to print mostly lowercaseletters*/
+		printf("%c", s);
+		k = k + s;
+	}
 
-    if(random_number == 0)
-    {
-        random_number = rand()%10;
-        password[i] = numbers[random_number];
-    }
-    else if(random_number == 1)
-    {
-         random_number = rand()%26;
-        password[i] = letter[random_number];
-    }
-    else if(random_number == 2)
-    {
-        random_number = rand()%26;
-        password[i] = LETTER[random_number];
-    }
-    else
-    {
+	s = c - k;
+	printf("%c", s);
 
-        random_number = rand()%8;
-        password[i] = symbols[random_number];
-    }
-}
-for(int i=0;i<size;i++)
-    {
-      printf("%c", password[i]);
-    }
-
-    return 0;
+	return (0);
 }
