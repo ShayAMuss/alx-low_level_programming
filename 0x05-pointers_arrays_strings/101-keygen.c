@@ -9,7 +9,7 @@ void randomPasswordGeneration(int N)
 	int randomizer = 0;
 
 	srand((unsigned int)(time(NULL)));
-	char password[N];
+	char password[N + 1];
 	randomizer = rand() % 4;
 	for (i = 0; i < N; i++) {
 
