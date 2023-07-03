@@ -5,7 +5,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-# char *_memset(char *s, char b, unsigned int n);
-# int _putchar(char c);
+void print_diagsums(int *a, int size);
+char *_memset(char *s, char b, unsigned int n);
+int _putchar(char c);
 
 #endif
