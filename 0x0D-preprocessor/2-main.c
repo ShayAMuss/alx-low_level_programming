@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Program entry point
+ * main - Entry point
  *
- * Return: 0 on success.
+ * Return: Always success.
  */
 
 int main()
 {
-    printf("%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 
-    return (0);
+	return (0);
 }
