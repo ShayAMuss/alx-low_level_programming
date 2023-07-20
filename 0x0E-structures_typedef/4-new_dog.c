@@ -48,7 +48,7 @@ char *my_Dog_name, *my_Dog_owner;
 
 my_Dog = malloc(sizeof(dog_t));
 
-if(my_Dog == NULL)
+if (my_Dog == NULL)
 {
 	return (NULL);
 }
