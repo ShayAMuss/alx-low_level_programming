@@ -2,7 +2,7 @@
 /**
  * print_name - Entry point
  * @f: pointer to void function
- * @neme: pointer to print_name fumction
+ * @name: pointer to print_name fumction
  *
  * Return: Nothing.
  */
