@@ -2,11 +2,12 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
-/** sum_them_all - Function returns the sum of all its parameters
+/**
+ * sum_them_all - Function returns the sum of all its parameters
  * @n: is constant unsigned int
- * @ap: Variable of type va_list
- * @j: is an int number
- * @sum: is the sum of parameters passed to the function
+ * @ap - Variable of type va_list
+ * @j - an int number
+ * @sum - an int number
  * Return: Returns the sum.
  */
 
