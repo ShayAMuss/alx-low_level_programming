@@ -12,7 +12,7 @@
 int main(int argc, char **argv)
 {
 	int i, num;
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	if (num < 0)
 	{
 		printf("Error\n");
-                exit(2);
+		exit(2);
 	}
 
 	for (i = 0; i < num; i++)
