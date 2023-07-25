@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers - Function that prints numbers, followed by \n
+ * print_strings - Function that prints strings, followed by \n
  * @n: Number of integers passed to the function
  * @separator: is the string to printed between numbers
  * @j - an int number
@@ -27,14 +27,14 @@ for (sum = 0; sum < n; sum++)
 	j = va_arg(ap, char *);
 	if (j == NULL)
 	{
-		j = "(nil)";
+		printf("(nil)");
 	}
 	else
 	{
 
 	if (sum == n - 1)
 	{
-		printf("%s \n", j);
+		printf("%s\n", j);
 	}
 	else
 	{
