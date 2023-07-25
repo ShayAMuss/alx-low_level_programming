@@ -25,14 +25,10 @@ va_start(ap, n);
 for (sum = 0; sum < n; sum++)
 {
 	j = va_arg(ap, char *);
-	if (!n)
-	{
-		printf(" ");
-	}
-	else
+	
 	if (j == NULL)
 	{
-		printf("(nil)");
+		printf("(nil)\n");
 	}
 	else
 		if (separator == NULL)
