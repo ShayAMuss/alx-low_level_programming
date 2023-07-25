@@ -30,18 +30,22 @@ for (sum = 0; sum < n; sum++)
 		printf("(nil)");
 	}
 	else
-	{
-
-	if (sum == n - 1)
-	{
-		printf("%s\n", j);
-	}
-	else
-	{
-		printf("%s%s", j, separator);
-	}
-	}
-va_end(ap);
+		if (separator == NULL)
+		{
+			return;
+		}
+		else
+		{
+			if (sum == n - 1)
+			{
+				printf("%s\n", j);
+			}
+			else
+			{
+				printf("%s%s", j, separator);
+			}
+		}
+	va_end(ap);
 }
 
 }
