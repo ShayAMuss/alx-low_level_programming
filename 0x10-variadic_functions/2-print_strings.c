@@ -19,34 +19,28 @@ if (n == 0)
 {
 	printf("\n");
 }
-
 va_start(ap, n);
-
 for (sum = 0; sum < n; sum++)
 {
 	j = va_arg(ap, char *);
-	
+
 	if (j == NULL)
-	{
 		printf("(nil)\n");
-	}
 	else
 		if (separator == NULL)
 		{
-			return;
+			if (sum == n - 1)
+				printf("%s\n", j);
+			else
+				printf("%s", j);
 		}
 		else
 		{
 			if (sum == n - 1)
-			{
 				printf("%s\n", j);
-			}
 			else
-			{
 				printf("%s%s", j, separator);
-			}
 		}
-	va_end(ap);
+va_end(ap);
 }
-
 }
