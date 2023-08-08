@@ -8,7 +8,7 @@
  * Return: 1 for success, -1 for failure
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+int clear_bit(unsigned long int *n, unsigned int index);
 {
 	if (index > 63)
 		return (-1);
